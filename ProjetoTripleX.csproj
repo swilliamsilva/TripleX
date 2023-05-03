@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{804F237F-5679-4AC6-BD4C-09BC17B61A55}</ProjectGuid>
+    <ProjectGuid>{32113D21-FF53-42FC-986A-75B3781DE97A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ProjetoTripleX</RootNamespace>
     <AssemblyName>ProjetoTripleX</AssemblyName>
