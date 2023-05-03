@@ -1,0 +1,11 @@
+C:\Users\4OFFICE\source\repos\TripleX\bin\Debug\ProjetoTripleX.exe.config
+C:\Users\4OFFICE\source\repos\TripleX\bin\Debug\ProjetoTripleX.exe
+C:\Users\4OFFICE\source\repos\TripleX\bin\Debug\ProjetoTripleX.pdb
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.AssemblyReference.cache
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.SuggestedBindingRedirects.cache
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.FrmConsultarCeps.resources
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.Properties.Resources.resources
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.GenerateResource.cache
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.CoreCompileInputs.cache
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.exe
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.pdb
