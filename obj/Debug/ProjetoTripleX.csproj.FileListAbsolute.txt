@@ -9,3 +9,6 @@ C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.GenerateRe
 C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.CoreCompileInputs.cache
 C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.exe
 C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.pdb
+C:\Users\4OFFICE\source\repos\TripleX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\4OFFICE\source\repos\TripleX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\4OFFICE\source\repos\TripleX\obj\Debug\ProjetoTripleX.csproj.CopyComplete
