@@ -73,5 +73,21 @@ namespace ProjetoTripleX
 
             }
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtCEP.Text = string.Empty;
+            txtEstado.Text = string.Empty;
+            txtCidade.Text = string.Empty;
+            txtBairro.Text = string.Empty;
+            txtRua.Text = string.Empty;
+
+
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
