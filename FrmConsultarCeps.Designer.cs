@@ -42,6 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 31);
+            this.label1.Location = new System.Drawing.Point(51, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 24);
             this.label1.TabIndex = 1;
@@ -59,15 +60,15 @@
             // 
             this.txtCEP.BackColor = System.Drawing.SystemColors.Info;
             this.txtCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCEP.Location = new System.Drawing.Point(40, 58);
+            this.txtCEP.Location = new System.Drawing.Point(55, 74);
             this.txtCEP.Name = "txtCEP";
-            this.txtCEP.Size = new System.Drawing.Size(135, 29);
+            this.txtCEP.Size = new System.Drawing.Size(113, 29);
             this.txtCEP.TabIndex = 3;
             // 
             // btnConsultar
             // 
             this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(535, 58);
+            this.btnConsultar.Location = new System.Drawing.Point(535, 74);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(106, 35);
             this.btnConsultar.TabIndex = 4;
@@ -78,7 +79,7 @@
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(535, 109);
+            this.btnLimpar.Location = new System.Drawing.Point(535, 206);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(106, 35);
             this.btnLimpar.TabIndex = 6;
@@ -89,7 +90,7 @@
             // btnFechar
             // 
             this.btnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFechar.Location = new System.Drawing.Point(535, 159);
+            this.btnFechar.Location = new System.Drawing.Point(535, 262);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(106, 35);
             this.btnFechar.TabIndex = 7;
@@ -191,11 +192,23 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Estado:";
             // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Location = new System.Drawing.Point(535, 132);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(106, 35);
+            this.btnSalvar.TabIndex = 9;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
             // FrmConsultarCeps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnLimpar);
@@ -228,6 +241,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }
 

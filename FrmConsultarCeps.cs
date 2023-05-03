@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Net.Http;
@@ -88,6 +89,42 @@ namespace ProjetoTripleX
         private void btnFechar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-7GR2V41;Initial Catalog=ResultadoConsultaViaCepDb;Integrated Security=True;Pooling=False");
+            con.Open();
+            var sql = "insert into RESCONSULTACEP(CEP, ESTADO, CIDADE, BAIRRO, RUA) values " + "(@CEP, @Estado, @Cidade, @Bairro, @Rua)";
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+
+                    cmd.Parameters.AddWithValue("@CEP", txtCEP.Text);
+                    cmd.Parameters.AddWithValue("@Estado", txtEstado.Text);
+                    cmd.Parameters.AddWithValue("@Cidade", txtCidade.Text);
+                    cmd.Parameters.AddWithValue("@Bairro", txtBairro.Text);
+                    cmd.Parameters.AddWithValue("@Rua", txtRua.Text);
+                    int b = cmd.ExecuteNonQuery();
+                    if (b != 0)
+                    {
+                        MessageBox.Show(" O CEP foi cadastrado com exito!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Erro, no cadastro do CEP!");
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Este CEP já existe gravado no arquivo!", Text,
+                        // MessageBox.Show(ex.Message, this.Text,
+                        MessageBoxButtons.OK);
+            }
+        
         }
     }
 }
